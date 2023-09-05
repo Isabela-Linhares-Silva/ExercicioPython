@@ -1,0 +1,6 @@
+nome = str(input('Qual é o seu nome completo ? '))
+print('Analisando o seu nome...')
+print('Seu nome todo em maiúsculo', nome.upper())
+print('Todo em minúsculo', nome.lower())
+print('Tem', len(nome), 'letras')
+print(nome.split(), len(nome[0]))
